@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Roboto&display=swap');
+
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 120px;
+	align-items: center;
+}
+
+header .mariela {
+	width: 122px;
+	height: 63px;
+	margin: 0 740px 0 40px;
+}
+
+header ul {
+	display: flex;
+	gap: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header a {
+	font-family: 'Cardo', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 17px;
+	color: #B08EAD;
+}
+
+header .basket {
+	width: 22px;
+	height: 20px;
+	margin: 0 20px 0 50px;
+}
+
+.container-1 {
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+.purple {
+	background-color: #C9ADC6;
+	height: 450px;
+}
+
+.pink {
+	background-color: #D6BBD3;
+	height: 350px;
+}
+
+.pillow {
+	position: absolute;
+	right: 380px;
+	left: 100px;
+	top: 60px;
+	height: 575px;
+	width: 751px;
+}
+
+.spring {
+	position: absolute;
+	width: 320px;
+	height: 375px;
+	background-color: #B08EAD;
+	top: 150px;
+	right: 150px;
+	left: 730px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px;
+	color: white;
+}
+
+.spring>p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.spring>h1 {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+.spring>a {
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.container-2 {
+	background-color: white;
+	width: 100%;
+	height: 600px;
+}
+
+.cushion-designer {
+	width: 100%;
+	height: 250px;
+	/*padding:0px 0 50px 0;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-2-title {
+	color: #B99BB6;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.container-2-text {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #5F4D5D;
+}
+
+.container-2 button {
+	border: 1px solid #B99BB6;
+	border-radius: 25px;
+	height: 40px;
+	width: 130px;
+	background-color: none;
+	background-color: white;
+}
+
+.about-company {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.image-text {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #CEB3CB;
+	width: 360px;
+	height: 390px;
+}
+
+.image-text>a {
+	color: white;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	margin: 10px 0 20px 15px;
+}
+
+.image-text>p {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 20px;
+	color: white;
+	margin: 15px 0 0px 15px;
+}
+
+.image-text>img {
+	width: 360px;
+	height: 310px;
+}
+
+.container-3 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+
+.beginings {
+	width: 50%;
+	height: 100%;
+	margin: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.coach {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+}
+
+.coach img {
+	margin-top: 80px;
+	margin-right: 120px;
+	margin-left: 20px;
+}
+
+.beginings h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.beginings p {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	color: #5F4D5D;
+}
+
+hr {
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid #D7B7D4;
+}
+
+.container-4 {
+	display: flex;
+	width: 100%;
+	height: 550px;
+}
+
+.backyard {
+	margin: 40px;
+	/*display: flex;
+	justify-content: space-around;
+	align-items: center;*/
+}
+
+.carrer {
+	width: 50%;
+	height: 100%;
+	margin: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.carrer button {
+	border: 1px solid #B99BB6;
+	border-radius: 25px;
+	height: 40px;
+	width: 130px;
+	color: #B99BB6;
+	background-color: white;
+}
+
+.carrer h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.carrer p {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	color: #5F4D5D;
+}
+
+.container-5 {
+	width: 100%;
+	margin-top: 90px;
+}
+
+.pillows-block {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	gap: 30px;
+	margin-top: 50px;
+}
+
+.pillows p {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	color: #5F4D5D;
+}
+
+.pillows span {
+	color: #B0B0B0;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.container-6 {
+	width: 100%;
+	height: 280px;
+	margin-top: 50px;
+	background: #D6BBD3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 230px;
+}
+
+.circle {
+	background-color: #BA9FB7;
+	border-radius: 111px;
+	width: 95px;
+	height: 95px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.above-footer {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.above-footer p {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+}
+
+.above-footer span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 120px;
+	align-items: center;
+	justify-content: center;
+	background: #C9ADC6;
+	gap: 50px;
+}
+
+footer ul {
+	display: flex;
+	gap: 25px;
+	list-style: none;
+}
+
+footer a {
+	font-family: 'Cardo', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 17px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
